@@ -1,0 +1,47 @@
+<!-- Table -->
+<div style="overflow-y: scroll;" class="tableContainer content">
+    <h1 class="text-center my-4">DONORS REQUESTS</h1>
+        <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+<thead>
+    <tr>
+        <th>S#</th>
+        <th>Donor Name</th>
+        <th>Blood Group</th>
+        <th>Timings</th>
+        <th>Appointment Date</th>
+        <th>Quantity(in ml)</th>
+        <th>Blood Center</th>
+        <th>Action</th>
+    </tr>
+</thead>
+<tbody>
+    
+    <tr>
+        <td>1</td>
+        <td>Khurram</td>
+        <td>A+</td>
+        <td>3-6</td>
+        <td>2023-08-31</td>
+        <td>400</td>
+        <td>Karachi Center</td>
+        <td class="d-flex">
+            <form action="" method="post">
+                <!-- <input hidden type="number" name="requestid" id="" value="<?php echo $fetchActivity['RequestId'] ?>">
+                <input hidden type="date" name="requestdate" id=""  value="<?php echo $fetchActivity['RequestDate'] ?>"> -->
+                <button type="submit" name="approve" class="btn btn-success me-2">Approve</button>
+            </form>
+            <form action="" method="post">
+                <!-- <input hidden type="number" name="requestid" id="" name="requestid" value="<?php echo $fetchActivity['RequestId'] ?>"> -->
+                <button type="submit" name="decline" class="btn btn-danger me-2">Decline</button>
+            </form>
+            
+        </td>
+    </tr>
+    
+    
+</tbody>
+</table>
+
+        </div>
+    
+    <!-- End Table -->
